@@ -129,6 +129,6 @@ if __name__ == "__main__":
     query = "What is the main topic of the document?"
     results = query_vector_database(query, user_id)
     
-    print("Quereey results:")
+    print("Query results:")
     for result in results:
         print(f"ID: {result['id']}, Distance: {result['distance']}")
